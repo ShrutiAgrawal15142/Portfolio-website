@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div id="home">
+        <div class="backimg">
+
+        </div>
+        <div class="container">
+            <nav>
+                <img src="logo(sh).png" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="home-text">
+                <p>Web Designer</p>
+                <h1>Hi, Myself <span id="span1">Shruti Agrawal</span><br>I am a student & a
+                    designer <p>
+                        No one is perfect , that's why pencils have erasers
+                    </p>
+                </h1>
+            </div>
+        </div>
+    </div>
+    <!-- -------------------about---------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-1">
+                    <img src="shrutipic.jpg">
+                </div>
+                <div class="col-2">
+                    <h1 class="abodeg">
+                        About Me
+                    </h1>
+                    <p class="abtcol">Hi, I'm Shruti Agrawal,<br> i belives in exploring everything in
+                        life to get experience and for fun in extra time</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('projects')">Projects</p>
+                    </div>
+                    <div class="tab-content active-tab" id="skills">
+                        <ul>
+                            <li>Web Development<br><span>Can develop or create websites for internet</span></li>
+                            <li>Problem Solving<br><span>Knows DSA with Intermediate knowledge</span></li>
+                            <li>Aptitude<br><span>Have ability to do any job or an activity well</span></li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="education">
+                        <table>
+                            <tr>
+                                <th>Courses</th>
+                                <th>Year</th>
+                                <th>School/college</th>
+                            </tr>
+                            <tr>
+                                <td>10<sup>th</sup></td>
+                                <td>2016-17</td>
+                                <td>Nazareth School,Chatra</td>
+                            </tr>
+                            <br>
+                            <tr>
+                                <td>12<sup>th</sup></td>
+                                <td>2017-19</td>
+                                <td>Sri Chaitanya Techno School,Vizag</td>
+                            </tr>
+                            <br>
+                            <tr>
+                                <td>Bsc</td>
+                                <td>2019-22</td>
+                                <td>Vinoba Bhave University,Hazaribagh</td>
+                            </tr>
+                            <br>
+                            <tr>
+                                <td>MCA</td>
+                                <td>2023-25</td>
+                                <td>Jawaharlal Nehru University,NewDelhi</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="tab-content" id="projects">
+                        <ul>
+                            <li>portfolio website<br><span>a website which tells about me</span></li>
+                            <li>banking system<br><span>here you can deposite, withdraw, or check balance</span></li>
+                            <li>hospital management system<br><span>check avilable doctors in hospitals and their
+                                    timings</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -----------------services----------------------- -->
+    <div id="Services">
+        <div class="container">
+            <h1 class=" sub-title">Services provided</h1>
+            <div class="Services-list">
+                <div>
+                    <i class="fa-solid fa-photo-film"></i>
+                    <h2>Responsive Web Design</h2>
+                    <p>Can create visually appealing, mobile-friendly websites using
+                         HTML and CSS, ensuring they look great on all devices.</p>
+                    <a href="#">learn more....</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-store"></i>
+                    <h2>Frontend Development</h2>
+                    <p>Can build and enhance websites with basic interactivity using JavaScript, 
+                        focusing on creating user-friendly interfaces and smooth navigation.</p>
+                    <a href="#">learn more....</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-calendar-days"></i>
+                    <h2>Java and SQL Integration</h2>
+                    <p>Can develop small applications with backend functionality, like simple management systems,
+                         by integrating Java with SQL databases.</p>
+                    <a href="#">learn more....</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!---------------------portfolio-------------------- -->
+
+
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Take a look at my recent work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="entertainment.jpg">
+                    <div class = "layer">
+                        <h3>Eventlitzer</h3>
+                        <p>This is a website for listing the upcoming events
+                             scheduled, watching the time an place of the event. </p>
+                         <a href ='#'><i class="fa-solid fa-sort"></i></a>    
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="BankMS.png">
+                    <div class = "layer">
+                        <h3>Bank Management System</h3>
+                        <p>This is ATM system from here we can withdraw, deposite or check the balance of individual by login. </p>
+                         <a href ='#'><i class="fa-solid fa-sort"></i></a>    
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="portfWeb.png">
+                    <div class = "layer">
+                        <h3>Portfolio Website</h3>
+                        <p>This is a website to showcase our work sevices and contacts. </p>
+                         <a href ='#'><i class="fa-solid fa-sort"></i></a>    
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- ---------------------contact---------------- -->
+
+    <div id=" contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa fa-paper-plane"></i> shrutiagrawal5142@gmail.com</p>
+                    <p><i class="fa fa-phone-square"></i> +91 2626262626</p>
+                    <div class="social-icons">
+                        <a href="https://linkedin.com/in/your-profile"><i class="fa fa-linkedin"></i></a>
+                        <a href="https://instagram.com/your-profile"><i class="fa fa-instagram"></i></a>
+                    </div>
+                    <a href =  "ShrutiAgrawal_resume.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class ="contact-right">
+                    <form>
+                        <input type=" text" name="Name" placeholder="Your Name" required>
+                        <input type=" email" name="Email" placeholder="Your email" required>
+                        <textarea type=" message" placeholder="your message" rows="6"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+                    </form>
+                </div>
+        </div>
+    </div>
+</div>
+
+    <script>
+        var tablinks = document.getElementsByClassName(" tab-links"); var
+                                tabcontents=document.getElementsByClassName("tab-content"); function opentab(tabname){
+                                for(tablink of tablinks){ tablink.classList.remove("active-link"); } for(tabcontent of
+                                tabcontents){ tabcontent.classList.remove("active-tab"); }
+                                event.currentTarget.classList.add("active-link");
+                                document.getElementById(tabname).classList.add("active-tab"); } </script>
+
+</body>
+
+</html>
